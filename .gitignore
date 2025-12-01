@@ -1,0 +1,333 @@
+# ZetaTron-OS-64-Figura-AI-Edition .gitignore
+# Protects proprietary source code and development documents
+
+# ============================================
+# CRITICAL: Source Code Protection
+# ============================================
+# All source code is CONFIDENTIAL and must NOT be committed to public repository
+
+# Sonner Studio Language (SSL) source files
+*.ssl
+!examples/*.ssl
+!docs/examples/*.ssl
+
+# Python source files (except public scripts)
+*.py
+!setup.py
+!__init__.py
+!scripts/public/*.py
+
+# C/C++ source files
+*.c
+*.cpp
+*.h
+*.hpp
+*.cc
+*.cxx
+
+# Rust source files
+*.rs
+!Cargo.toml
+!Cargo.lock
+
+# Assembly files
+*.asm
+*.s
+
+# ============================================
+# Development Documents (CONFIDENTIAL)
+# ============================================
+
+# Internal specifications
+docs/internal/
+docs/architecture/
+docs/design/
+docs/*_internal.md
+docs/*_spec.md
+docs/figcom_protocol_spec.md
+docs/memory_domain_manager_spec.md
+
+# Implementation plans and notes
+**/implementation_*.md
+**/design_*.md
+**/architecture_*.md
+**/notes_*.md
+
+# Meeting notes and planning
+meetings/
+planning/
+notes/
+
+# ============================================
+# Project Research Data (CONFIDENTIAL)
+# ============================================
+
+# Copied research data from other projects
+Project-Researce-Data/
+research/
+references/internal/
+
+# ============================================
+# Build Artifacts
+# ============================================
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+*.app
+
+# Build directories
+build/
+dist/
+target/
+out/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Cargo (Rust)
+Cargo.lock
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================================
+# Logs and Temporary Files
+# ============================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Test outputs
+test_output/
+test_logs/
+*.test
+
+# ============================================
+# Configuration Files (with secrets)
+# ============================================
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Configuration with secrets
+config/secrets/
+config/private/
+**/secrets.json
+**/private.json
+**/*_secret.*
+**/*_private.*
+
+# SSH keys
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+
+# ============================================
+# Database Files
+# ============================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ============================================
+# Package Manager Files
+# ============================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+.venv/
+venv/
+ENV/
+env/
+
+# ============================================
+# Documentation Build Artifacts
+# ============================================
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ============================================
+# CI/CD and Deployment
+# ============================================
+
+# Docker
+*.dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Kubernetes
+*.yaml
+*.yml
+!.github/workflows/*.yml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ============================================
+# Backup and Archive Files
+# ============================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*_backup_*
+*_archive_*
+
+# ============================================
+# Allowed Public Files
+# ============================================
+
+# Explicitly allow these files
+!README.md
+!LICENSE
+!.gitignore
+!docs/zetatron_os_specification.md
+!docs/figura_ai_system_requirements.md
+!docs/PRESS_RELEASE_FACEBOOK.md
+!docs/zetatron_os_logo.png
+!docs/zetatron_os_logo_sonnerstudio.png
+!assets/zetatron_os_logo.png
+!assets/zetatron_os_logo_sonnerstudio.png
+
+# ============================================
+# Git Attributes
+# ============================================
+
+# Ensure line endings are consistent
+* text=auto
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# ============================================
+# END OF .gitignore
+# ============================================
+# 
+# REMINDER: All source code and development documents are CONFIDENTIAL
+# Only binary releases and public documentation should be committed
+# 
+# © 2025 SonnerStudio. All Rights Reserved.

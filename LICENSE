@@ -1,0 +1,138 @@
+# ZetaTron-OS-64-Figura-AI-Edition - Dual License
+
+## Overview
+
+ZetaTron-OS-64-Figura-AI-Edition is available under a **dual licensing model**:
+
+1. **Freeware License** (for private and academic use)
+2. **Commercial License** (for commercial use with support)
+
+---
+
+## 1. Freeware License
+
+### Terms and Conditions
+
+**Copyright © 2025 SonnerStudio. All rights reserved.**
+
+Permission is hereby granted, **free of charge**, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for **private, non-commercial, and academic purposes only**, subject to the following conditions:
+
+#### Permitted Uses:
+- ✅ Personal use on private systems
+- ✅ Academic research and education
+- ✅ Non-profit organizations (with prior written approval)
+- ✅ Evaluation and testing
+
+#### Restrictions:
+- ❌ **Commercial use is strictly prohibited** under this license
+- ❌ **No redistribution** of source code or binaries
+- ❌ **No modification** or derivative works without written permission
+- ❌ **No reverse engineering** of proprietary components
+- ❌ **No sublicensing** or transfer of rights
+
+#### Source Code:
+- **Source code and development documents are CONFIDENTIAL and NOT PUBLICLY AVAILABLE**
+- Access to source code is restricted to SonnerStudio personnel only
+- This license grants rights to use **binary distributions only**
+
+#### Disclaimer:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## 2. Commercial License
+
+### For Commercial Use
+
+If you wish to use ZetaTron-OS-64-Figura-AI-Edition for **commercial purposes**, you must obtain a **Commercial License** from SonnerStudio.
+
+#### Commercial License Includes:
+- ✅ **Commercial deployment rights**
+- ✅ **Priority technical support**
+- ✅ **Service Level Agreements (SLAs)**
+- ✅ **Custom development and integration services**
+- ✅ **Access to enterprise features**
+- ✅ **Dedicated account management**
+
+#### Pricing:
+Commercial licensing is available on a **per-deployment** or **per-enterprise** basis. Contact SonnerStudio for a customized quote.
+
+#### Contact for Commercial Licensing:
+**SonnerStudio**  
+Director: Jan Friske  
+Email: [Contact via GitHub](https://github.com/SonnerStudio)  
+Repository: https://github.com/SonnerStudio/ZetaTron-OS-64-Figura-AI-Edition
+
+---
+
+## 3. Proprietary Components
+
+The following components are **proprietary and confidential**:
+
+### Restricted Access:
+- All source code (`.ssl`, `.py`, `.c`, `.h`, etc.)
+- Development documentation and specifications
+- Internal architecture diagrams
+- Build scripts and toolchains
+- Test suites and validation frameworks
+- Figura AI module implementations
+- FIGCOM protocol implementation details
+- Kernel source code
+
+### Public Access:
+- Binary releases (when available)
+- User documentation
+- Public API specifications
+- Example configurations
+- This README and LICENSE file
+
+---
+
+## 4. Contribution Policy
+
+### Contributions:
+- External contributions are **welcome** but require a **Contributor License Agreement (CLA)**
+- All contributed code becomes the property of SonnerStudio
+- Contributors retain attribution rights
+- SonnerStudio reserves the right to accept or reject any contribution
+
+### How to Contribute:
+1. Contact SonnerStudio via GitHub Issues
+2. Sign the Contributor License Agreement
+3. Submit pull requests for review
+4. Await approval from the core development team
+
+---
+
+## 5. Trademark
+
+**"ZetaTron-OS"**, **"Figura AI"**, **"Sonner Studio Language"**, and the **ZetaTron logo** are trademarks of SonnerStudio. Unauthorized use of these trademarks is prohibited.
+
+---
+
+## 6. Governing Law
+
+This license shall be governed by and construed in accordance with the laws of **Germany**, without regard to its conflict of law provisions.
+
+---
+
+## 7. Contact Information
+
+For questions about licensing, please contact:
+
+**SonnerStudio**  
+Director: Jan Friske  
+GitHub: https://github.com/SonnerStudio  
+Project: https://github.com/SonnerStudio/ZetaTron-OS-64-Figura-AI-Edition
+
+---
+
+## 8. License Version
+
+**Version**: 1.0  
+**Effective Date**: December 1, 2025  
+**Last Updated**: December 1, 2025
+
+---
+
+**© 2025 SonnerStudio. All Rights Reserved.**
